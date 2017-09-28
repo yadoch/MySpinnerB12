@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.com.abc.myspinnerb12.MainActivity">
+
+    　　<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/sex"
+    android:textSize="25sp"/>
+
+    <Spinner
+        android:id="@+id/spnSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sex_list"
+        android:spinnerMode="dialog"
+        android:prompt="@string/spn_sex_list_prompt"
+        ></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="25sp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAge"
+        android:hint="@string/age_hint"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOK"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_ok"/>
+    <TextView
+        android:id="@+id/txtR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suggestion"
+        android:textSize="25sp"/>
+
+</LinearLayout>
+
+
+
